@@ -1,0 +1,1075 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57E43B2B1C0F749B1B15E351 /* Pods_MedicoBoxDeliveryBoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81AEC57EACCD7B1781A0F855 /* Pods_MedicoBoxDeliveryBoy.framework */; };
+		CD44FE7F216C85DE008AE0BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FE7E216C85DE008AE0BF /* AppDelegate.swift */; };
+		CD44FE81216C85DE008AE0BF /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FE80216C85DE008AE0BF /* EditProfileViewController.swift */; };
+		CD44FE84216C85DE008AE0BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD44FE82216C85DE008AE0BF /* Main.storyboard */; };
+		CD44FE86216C85E4008AE0BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD44FE85216C85E4008AE0BF /* Assets.xcassets */; };
+		CD44FE89216C85E4008AE0BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD44FE87216C85E4008AE0BF /* LaunchScreen.storyboard */; };
+		CD44FE94216C85E4008AE0BF /* MedicoBoxDeliveryBoyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FE93216C85E4008AE0BF /* MedicoBoxDeliveryBoyTests.swift */; };
+		CD44FE9F216C85E4008AE0BF /* MedicoBoxDeliveryBoyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FE9E216C85E4008AE0BF /* MedicoBoxDeliveryBoyUITests.swift */; };
+		CD44FEB6216C87E3008AE0BF /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEAD216C87E1008AE0BF /* CosmosDistrib.swift */; };
+		CD44FEB7216C87E3008AE0BF /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEAE216C87E2008AE0BF /* UIApplication.swift */; };
+		CD44FEB8216C87E3008AE0BF /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEAF216C87E2008AE0BF /* UIImageView.swift */; };
+		CD44FEB9216C87E3008AE0BF /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEB0216C87E2008AE0BF /* String.swift */; };
+		CD44FEBA216C87E3008AE0BF /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEB1216C87E2008AE0BF /* UITableViewExtension.swift */; };
+		CD44FEBB216C87E3008AE0BF /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEB2216C87E2008AE0BF /* UIView.swift */; };
+		CD44FEBC216C87E3008AE0BF /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEB3216C87E2008AE0BF /* UIColor.swift */; };
+		CD44FEBD216C87E3008AE0BF /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEB4216C87E3008AE0BF /* UIImage.swift */; };
+		CD44FEBE216C87E3008AE0BF /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEB5216C87E3008AE0BF /* UIViewController.swift */; };
+		CD44FECA216C8825008AE0BF /* SubCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEC8216C8825008AE0BF /* SubCell.swift */; };
+		CD44FECB216C8825008AE0BF /* HeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEC9216C8825008AE0BF /* HeaderCell.swift */; };
+		CD44FECE216C8838008AE0BF /* ImageHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD44FECC216C8838008AE0BF /* ImageHeaderView.xib */; };
+		CD44FECF216C8838008AE0BF /* ImageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FECD216C8838008AE0BF /* ImageHeaderView.swift */; };
+		CD44FEE0216C8881008AE0BF /* fa-solid-900.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FEDD216C8880008AE0BF /* fa-solid-900.ttf */; };
+		CD44FEE1216C8881008AE0BF /* fa-regular-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FEDE216C8880008AE0BF /* fa-regular-400.ttf */; };
+		CD44FEE2216C8881008AE0BF /* fa-brands-400.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FEDF216C8881008AE0BF /* fa-brands-400.ttf */; };
+		CD44FEE6216C88A0008AE0BF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEE4216C88A0008AE0BF /* Constants.swift */; };
+		CD44FEE7216C88A0008AE0BF /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEE5216C88A0008AE0BF /* Extension.swift */; };
+		CD44FEEE216C88BD008AE0BF /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEE9216C88BC008AE0BF /* DesignableButton.swift */; };
+		CD44FEEF216C88BD008AE0BF /* DesignableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEEA216C88BC008AE0BF /* DesignableImage.swift */; };
+		CD44FEF0216C88BD008AE0BF /* DesignableShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEEB216C88BD008AE0BF /* DesignableShadowView.swift */; };
+		CD44FEF1216C88BD008AE0BF /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEEC216C88BD008AE0BF /* DesignableView.swift */; };
+		CD44FEF2216C88BD008AE0BF /* DesignableShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEED216C88BD008AE0BF /* DesignableShadowButton.swift */; };
+		CD44FEFC216C8D15008AE0BF /* TodaysOrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEFA216C8D15008AE0BF /* TodaysOrdersTableViewCell.swift */; };
+		CD44FEFD216C8D15008AE0BF /* TodaysOrdersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD44FEFB216C8D15008AE0BF /* TodaysOrdersTableViewCell.xib */; };
+		CD44FF01216C8F91008AE0BF /* OrdersTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FEFF216C8F91008AE0BF /* OrdersTableViewCell.swift */; };
+		CD44FF02216C8F91008AE0BF /* OrdersTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD44FF00216C8F91008AE0BF /* OrdersTableViewCell.xib */; };
+		CD44FF04216C95EA008AE0BF /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FF03216C95EA008AE0BF /* OrdersViewController.swift */; };
+		CD44FF06216C95F9008AE0BF /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FF05216C95F9008AE0BF /* MyProfileViewController.swift */; };
+		CD44FF08216C9607008AE0BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FF07216C9607008AE0BF /* HomeViewController.swift */; };
+		CD44FF0C216C974D008AE0BF /* AddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FF0A216C974C008AE0BF /* AddressTableViewCell.swift */; };
+		CD44FF0D216C974D008AE0BF /* AddressTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD44FF0B216C974C008AE0BF /* AddressTableViewCell.xib */; };
+		CD44FF11216CC05D008AE0BF /* OrderItemsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FF0F216CC05C008AE0BF /* OrderItemsTableViewCell.swift */; };
+		CD44FF12216CC05D008AE0BF /* OrderItemsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD44FF10216CC05C008AE0BF /* OrderItemsTableViewCell.xib */; };
+		CD44FF14216CC0C7008AE0BF /* CompletedOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD44FF13216CC0C7008AE0BF /* CompletedOrdersViewController.swift */; };
+		CDAC34AC21770ECB0052A55C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC34AB21770EC90052A55C /* NotificationViewController.swift */; };
+		CDAC34B021770F860052A55C /* NotificationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC34AE21770F860052A55C /* NotificationTableViewCell.swift */; };
+		CDAC34B121770F870052A55C /* NotificationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDAC34AF21770F860052A55C /* NotificationTableViewCell.xib */; };
+		CDAC34B52177125C0052A55C /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC34B22177125B0052A55C /* SlideMenuController.swift */; };
+		CDAC34B62177125C0052A55C /* ExSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC34B32177125B0052A55C /* ExSlideMenuController.swift */; };
+		CDAC34B72177125C0052A55C /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAC34B42177125C0052A55C /* LeftViewController.swift */; };
+		CDBE53692175BFAB0068BD12 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FED4216C8879008AE0BF /* OpenSans-Bold.ttf */; };
+		CDBE536A2175BFAB0068BD12 /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FEDB216C8879008AE0BF /* OpenSans-BoldItalic.ttf */; };
+		CDBE536B2175BFAB0068BD12 /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FEDC216C887A008AE0BF /* OpenSans-ExtraBold.ttf */; };
+		CDBE536C2175BFAB0068BD12 /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FED5216C8879008AE0BF /* OpenSans-ExtraBoldItalic.ttf */; };
+		CDBE536D2175BFAB0068BD12 /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FED7216C8879008AE0BF /* OpenSans-Italic.ttf */; };
+		CDBE536E2175BFAB0068BD12 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FEDA216C8879008AE0BF /* OpenSans-Light.ttf */; };
+		CDBE536F2175BFAB0068BD12 /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FED8216C8879008AE0BF /* OpenSans-LightItalic.ttf */; };
+		CDBE53702175BFAB0068BD12 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FED6216C8879008AE0BF /* OpenSans-Regular.ttf */; };
+		CDBE53712175BFAB0068BD12 /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FED3216C8879008AE0BF /* OpenSans-Semibold.ttf */; };
+		CDBE53722175BFAB0068BD12 /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CD44FED9216C8879008AE0BF /* OpenSans-SemiboldItalic.ttf */; };
+		CDBE56E82171C6F0009A07F0 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE56E62171C6EF009A07F0 /* Messages.framework */; };
+		CDBE56E92171C6F0009A07F0 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE56E72171C6F0009A07F0 /* MessageUI.framework */; };
+		CDBE56EB2171C71A009A07F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDBE56EA2171C71A009A07F0 /* Foundation.framework */; };
+		CDBE56F42172090F009A07F0 /* BasicBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE56F32172090E009A07F0 /* BasicBarChart.swift */; };
+		CDBE56F6217209C0009A07F0 /* BarEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBE56F5217209C0009A07F0 /* BarEntry.swift */; };
+		CDCDEA5A216F27090094324D /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCDEA59216F27080094324D /* SignInViewController.swift */; };
+		CDF9FFA5216DADBE001C9D75 /* PendingOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDF9FFA4216DADBE001C9D75 /* PendingOrdersViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD44FE90216C85E4008AE0BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD44FE73216C85DE008AE0BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD44FE7A216C85DE008AE0BF;
+			remoteInfo = MedicoBoxDeliveryBoy;
+		};
+		CD44FE9B216C85E4008AE0BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD44FE73216C85DE008AE0BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD44FE7A216C85DE008AE0BF;
+			remoteInfo = MedicoBoxDeliveryBoy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21EC5E00E3E1077B557CDBA4 /* Pods-MedicoBoxDeliveryBoy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicoBoxDeliveryBoy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicoBoxDeliveryBoy/Pods-MedicoBoxDeliveryBoy.debug.xcconfig"; sourceTree = "<group>"; };
+		7215B3C7128F035E794FAE88 /* Pods-MedicoBoxDeliveryBoy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicoBoxDeliveryBoy.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicoBoxDeliveryBoy/Pods-MedicoBoxDeliveryBoy.release.xcconfig"; sourceTree = "<group>"; };
+		81AEC57EACCD7B1781A0F855 /* Pods_MedicoBoxDeliveryBoy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MedicoBoxDeliveryBoy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD44FE7B216C85DE008AE0BF /* MedicoBoxDeliveryBoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicoBoxDeliveryBoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD44FE7E216C85DE008AE0BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD44FE80216C85DE008AE0BF /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		CD44FE83216C85DE008AE0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD44FE85216C85E4008AE0BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD44FE88216C85E4008AE0BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD44FE8A216C85E4008AE0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD44FE8F216C85E4008AE0BF /* MedicoBoxDeliveryBoyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicoBoxDeliveryBoyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD44FE93216C85E4008AE0BF /* MedicoBoxDeliveryBoyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicoBoxDeliveryBoyTests.swift; sourceTree = "<group>"; };
+		CD44FE95216C85E4008AE0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD44FE9A216C85E4008AE0BF /* MedicoBoxDeliveryBoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedicoBoxDeliveryBoyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD44FE9E216C85E4008AE0BF /* MedicoBoxDeliveryBoyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicoBoxDeliveryBoyUITests.swift; sourceTree = "<group>"; };
+		CD44FEA0216C85E4008AE0BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD44FEAD216C87E1008AE0BF /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
+		CD44FEAE216C87E2008AE0BF /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		CD44FEAF216C87E2008AE0BF /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		CD44FEB0216C87E2008AE0BF /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		CD44FEB1216C87E2008AE0BF /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
+		CD44FEB2216C87E2008AE0BF /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		CD44FEB3216C87E2008AE0BF /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		CD44FEB4216C87E3008AE0BF /* UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		CD44FEB5216C87E3008AE0BF /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		CD44FEC8216C8825008AE0BF /* SubCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubCell.swift; sourceTree = "<group>"; };
+		CD44FEC9216C8825008AE0BF /* HeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderCell.swift; sourceTree = "<group>"; };
+		CD44FECC216C8838008AE0BF /* ImageHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageHeaderView.xib; sourceTree = "<group>"; };
+		CD44FECD216C8838008AE0BF /* ImageHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageHeaderView.swift; sourceTree = "<group>"; };
+		CD44FED3216C8879008AE0BF /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		CD44FED4216C8879008AE0BF /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		CD44FED5216C8879008AE0BF /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CD44FED6216C8879008AE0BF /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		CD44FED7216C8879008AE0BF /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		CD44FED8216C8879008AE0BF /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		CD44FED9216C8879008AE0BF /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		CD44FEDA216C8879008AE0BF /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		CD44FEDB216C8879008AE0BF /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CD44FEDC216C887A008AE0BF /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		CD44FEDD216C8880008AE0BF /* fa-solid-900.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-solid-900.ttf"; sourceTree = "<group>"; };
+		CD44FEDE216C8880008AE0BF /* fa-regular-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-regular-400.ttf"; sourceTree = "<group>"; };
+		CD44FEDF216C8881008AE0BF /* fa-brands-400.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fa-brands-400.ttf"; sourceTree = "<group>"; };
+		CD44FEE4216C88A0008AE0BF /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CD44FEE5216C88A0008AE0BF /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		CD44FEE9216C88BC008AE0BF /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		CD44FEEA216C88BC008AE0BF /* DesignableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImage.swift; sourceTree = "<group>"; };
+		CD44FEEB216C88BD008AE0BF /* DesignableShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableShadowView.swift; sourceTree = "<group>"; };
+		CD44FEEC216C88BD008AE0BF /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		CD44FEED216C88BD008AE0BF /* DesignableShadowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableShadowButton.swift; sourceTree = "<group>"; };
+		CD44FEFA216C8D15008AE0BF /* TodaysOrdersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysOrdersTableViewCell.swift; sourceTree = "<group>"; };
+		CD44FEFB216C8D15008AE0BF /* TodaysOrdersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodaysOrdersTableViewCell.xib; sourceTree = "<group>"; };
+		CD44FEFF216C8F91008AE0BF /* OrdersTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersTableViewCell.swift; sourceTree = "<group>"; };
+		CD44FF00216C8F91008AE0BF /* OrdersTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrdersTableViewCell.xib; sourceTree = "<group>"; };
+		CD44FF03216C95EA008AE0BF /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		CD44FF05216C95F9008AE0BF /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		CD44FF07216C9607008AE0BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CD44FF0A216C974C008AE0BF /* AddressTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressTableViewCell.swift; sourceTree = "<group>"; };
+		CD44FF0B216C974C008AE0BF /* AddressTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressTableViewCell.xib; sourceTree = "<group>"; };
+		CD44FF0F216CC05C008AE0BF /* OrderItemsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderItemsTableViewCell.swift; sourceTree = "<group>"; };
+		CD44FF10216CC05C008AE0BF /* OrderItemsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderItemsTableViewCell.xib; sourceTree = "<group>"; };
+		CD44FF13216CC0C7008AE0BF /* CompletedOrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompletedOrdersViewController.swift; sourceTree = "<group>"; };
+		CDAC34AB21770EC90052A55C /* NotificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		CDAC34AE21770F860052A55C /* NotificationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationTableViewCell.swift; sourceTree = "<group>"; };
+		CDAC34AF21770F860052A55C /* NotificationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationTableViewCell.xib; sourceTree = "<group>"; };
+		CDAC34B22177125B0052A55C /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		CDAC34B32177125B0052A55C /* ExSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSlideMenuController.swift; sourceTree = "<group>"; };
+		CDAC34B42177125C0052A55C /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		CDBE56E62171C6EF009A07F0 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		CDBE56E72171C6F0009A07F0 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		CDBE56EA2171C71A009A07F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDBE56F32172090E009A07F0 /* BasicBarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicBarChart.swift; sourceTree = "<group>"; };
+		CDBE56F5217209C0009A07F0 /* BarEntry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarEntry.swift; sourceTree = "<group>"; };
+		CDCDEA59216F27080094324D /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CDF9FFA4216DADBE001C9D75 /* PendingOrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingOrdersViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD44FE78216C85DE008AE0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBE56EB2171C71A009A07F0 /* Foundation.framework in Frameworks */,
+				CDBE56E82171C6F0009A07F0 /* Messages.framework in Frameworks */,
+				CDBE56E92171C6F0009A07F0 /* MessageUI.framework in Frameworks */,
+				57E43B2B1C0F749B1B15E351 /* Pods_MedicoBoxDeliveryBoy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD44FE8C216C85E4008AE0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD44FE97216C85E4008AE0BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A092CC675903C40A9294660F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21EC5E00E3E1077B557CDBA4 /* Pods-MedicoBoxDeliveryBoy.debug.xcconfig */,
+				7215B3C7128F035E794FAE88 /* Pods-MedicoBoxDeliveryBoy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CD44FE72216C85DE008AE0BF = {
+			isa = PBXGroup;
+			children = (
+				CD44FE7D216C85DE008AE0BF /* MedicoBoxDeliveryBoy */,
+				CD44FE92216C85E4008AE0BF /* MedicoBoxDeliveryBoyTests */,
+				CD44FE9D216C85E4008AE0BF /* MedicoBoxDeliveryBoyUITests */,
+				CD44FE7C216C85DE008AE0BF /* Products */,
+				A092CC675903C40A9294660F /* Pods */,
+				E6F88E78C4591534F28E6B3D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD44FE7C216C85DE008AE0BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FE7B216C85DE008AE0BF /* MedicoBoxDeliveryBoy.app */,
+				CD44FE8F216C85E4008AE0BF /* MedicoBoxDeliveryBoyTests.xctest */,
+				CD44FE9A216C85E4008AE0BF /* MedicoBoxDeliveryBoyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD44FE7D216C85DE008AE0BF /* MedicoBoxDeliveryBoy */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE56F02171EE96009A07F0 /* Charts */,
+				CD44FEF7216C8CAE008AE0BF /* CustomeCells */,
+				CD44FED0216C884F008AE0BF /* Fonts */,
+				CD44FEAC216C87C8008AE0BF /* ExtensionFiles */,
+				CD44FEBF216C87F2008AE0BF /* SlideMenu */,
+				CD44FEE8216C88B3008AE0BF /* IB Designable */,
+				CD44FEE3216C8896008AE0BF /* CommonFiles */,
+				CD44FEF3216C88CA008AE0BF /* AppDelegate */,
+				CD44FEF4216C88DA008AE0BF /* UIViewControllers */,
+				CD44FEF5216C88EF008AE0BF /* UI and Storyboard */,
+				CD44FEF6216C8916008AE0BF /* Resources */,
+				CD44FE87216C85E4008AE0BF /* LaunchScreen.storyboard */,
+				CD44FE8A216C85E4008AE0BF /* Info.plist */,
+			);
+			path = MedicoBoxDeliveryBoy;
+			sourceTree = "<group>";
+		};
+		CD44FE92216C85E4008AE0BF /* MedicoBoxDeliveryBoyTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FE93216C85E4008AE0BF /* MedicoBoxDeliveryBoyTests.swift */,
+				CD44FE95216C85E4008AE0BF /* Info.plist */,
+			);
+			path = MedicoBoxDeliveryBoyTests;
+			sourceTree = "<group>";
+		};
+		CD44FE9D216C85E4008AE0BF /* MedicoBoxDeliveryBoyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FE9E216C85E4008AE0BF /* MedicoBoxDeliveryBoyUITests.swift */,
+				CD44FEA0216C85E4008AE0BF /* Info.plist */,
+			);
+			path = MedicoBoxDeliveryBoyUITests;
+			sourceTree = "<group>";
+		};
+		CD44FEAC216C87C8008AE0BF /* ExtensionFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FEAD216C87E1008AE0BF /* CosmosDistrib.swift */,
+				CD44FEB0216C87E2008AE0BF /* String.swift */,
+				CD44FEAE216C87E2008AE0BF /* UIApplication.swift */,
+				CD44FEB3216C87E2008AE0BF /* UIColor.swift */,
+				CD44FEB4216C87E3008AE0BF /* UIImage.swift */,
+				CD44FEAF216C87E2008AE0BF /* UIImageView.swift */,
+				CD44FEB1216C87E2008AE0BF /* UITableViewExtension.swift */,
+				CD44FEB2216C87E2008AE0BF /* UIView.swift */,
+				CD44FEB5216C87E3008AE0BF /* UIViewController.swift */,
+			);
+			path = ExtensionFiles;
+			sourceTree = "<group>";
+		};
+		CD44FEBF216C87F2008AE0BF /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC34B32177125B0052A55C /* ExSlideMenuController.swift */,
+				CDAC34B42177125C0052A55C /* LeftViewController.swift */,
+				CDAC34B22177125B0052A55C /* SlideMenuController.swift */,
+				CD44FEC1216C880C008AE0BF /* ImageViewHeader */,
+				CD44FEC0216C87FF008AE0BF /* CustomTableCell */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		CD44FEC0216C87FF008AE0BF /* CustomTableCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FEC9216C8825008AE0BF /* HeaderCell.swift */,
+				CD44FEC8216C8825008AE0BF /* SubCell.swift */,
+			);
+			path = CustomTableCell;
+			sourceTree = "<group>";
+		};
+		CD44FEC1216C880C008AE0BF /* ImageViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FECD216C8838008AE0BF /* ImageHeaderView.swift */,
+				CD44FECC216C8838008AE0BF /* ImageHeaderView.xib */,
+			);
+			path = ImageViewHeader;
+			sourceTree = "<group>";
+		};
+		CD44FED0216C884F008AE0BF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FED2216C886D008AE0BF /* FontAwsome */,
+				CD44FED1216C8860008AE0BF /* OpenSans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CD44FED1216C8860008AE0BF /* OpenSans */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FED4216C8879008AE0BF /* OpenSans-Bold.ttf */,
+				CD44FEDB216C8879008AE0BF /* OpenSans-BoldItalic.ttf */,
+				CD44FEDC216C887A008AE0BF /* OpenSans-ExtraBold.ttf */,
+				CD44FED5216C8879008AE0BF /* OpenSans-ExtraBoldItalic.ttf */,
+				CD44FED7216C8879008AE0BF /* OpenSans-Italic.ttf */,
+				CD44FEDA216C8879008AE0BF /* OpenSans-Light.ttf */,
+				CD44FED8216C8879008AE0BF /* OpenSans-LightItalic.ttf */,
+				CD44FED6216C8879008AE0BF /* OpenSans-Regular.ttf */,
+				CD44FED3216C8879008AE0BF /* OpenSans-Semibold.ttf */,
+				CD44FED9216C8879008AE0BF /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = OpenSans;
+			sourceTree = "<group>";
+		};
+		CD44FED2216C886D008AE0BF /* FontAwsome */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FEDF216C8881008AE0BF /* fa-brands-400.ttf */,
+				CD44FEDE216C8880008AE0BF /* fa-regular-400.ttf */,
+				CD44FEDD216C8880008AE0BF /* fa-solid-900.ttf */,
+			);
+			path = FontAwsome;
+			sourceTree = "<group>";
+		};
+		CD44FEE3216C8896008AE0BF /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FEE4216C88A0008AE0BF /* Constants.swift */,
+				CD44FEE5216C88A0008AE0BF /* Extension.swift */,
+			);
+			path = CommonFiles;
+			sourceTree = "<group>";
+		};
+		CD44FEE8216C88B3008AE0BF /* IB Designable */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FEEC216C88BD008AE0BF /* DesignableView.swift */,
+				CD44FEE9216C88BC008AE0BF /* DesignableButton.swift */,
+				CD44FEEA216C88BC008AE0BF /* DesignableImage.swift */,
+				CD44FEED216C88BD008AE0BF /* DesignableShadowButton.swift */,
+				CD44FEEB216C88BD008AE0BF /* DesignableShadowView.swift */,
+			);
+			path = "IB Designable";
+			sourceTree = "<group>";
+		};
+		CD44FEF3216C88CA008AE0BF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FE7E216C85DE008AE0BF /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CD44FEF4216C88DA008AE0BF /* UIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC34AB21770EC90052A55C /* NotificationViewController.swift */,
+				CDCDEA59216F27080094324D /* SignInViewController.swift */,
+				CD44FF13216CC0C7008AE0BF /* CompletedOrdersViewController.swift */,
+				CDF9FFA4216DADBE001C9D75 /* PendingOrdersViewController.swift */,
+				CD44FE80216C85DE008AE0BF /* EditProfileViewController.swift */,
+				CD44FF07216C9607008AE0BF /* HomeViewController.swift */,
+				CD44FF03216C95EA008AE0BF /* OrdersViewController.swift */,
+				CD44FF05216C95F9008AE0BF /* MyProfileViewController.swift */,
+			);
+			path = UIViewControllers;
+			sourceTree = "<group>";
+		};
+		CD44FEF5216C88EF008AE0BF /* UI and Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FE82216C85DE008AE0BF /* Main.storyboard */,
+			);
+			path = "UI and Storyboard";
+			sourceTree = "<group>";
+		};
+		CD44FEF6216C8916008AE0BF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FE85216C85E4008AE0BF /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CD44FEF7216C8CAE008AE0BF /* CustomeCells */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC34AD21770F6D0052A55C /* NotificationTableViewCell */,
+				CD44FF0E216CC02E008AE0BF /* OrderItemsTableViewCell */,
+				CD44FF09216C9738008AE0BF /* Address Cell */,
+				CD44FEFE216C8F74008AE0BF /* OrdersTableViewCell */,
+				CD44FEF8216C8CE7008AE0BF /* TodaysOrdersTableViewCell */,
+			);
+			path = CustomeCells;
+			sourceTree = "<group>";
+		};
+		CD44FEF8216C8CE7008AE0BF /* TodaysOrdersTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FEFA216C8D15008AE0BF /* TodaysOrdersTableViewCell.swift */,
+				CD44FEFB216C8D15008AE0BF /* TodaysOrdersTableViewCell.xib */,
+			);
+			path = TodaysOrdersTableViewCell;
+			sourceTree = "<group>";
+		};
+		CD44FEFE216C8F74008AE0BF /* OrdersTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FEFF216C8F91008AE0BF /* OrdersTableViewCell.swift */,
+				CD44FF00216C8F91008AE0BF /* OrdersTableViewCell.xib */,
+			);
+			path = OrdersTableViewCell;
+			sourceTree = "<group>";
+		};
+		CD44FF09216C9738008AE0BF /* Address Cell */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FF0A216C974C008AE0BF /* AddressTableViewCell.swift */,
+				CD44FF0B216C974C008AE0BF /* AddressTableViewCell.xib */,
+			);
+			path = "Address Cell";
+			sourceTree = "<group>";
+		};
+		CD44FF0E216CC02E008AE0BF /* OrderItemsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD44FF0F216CC05C008AE0BF /* OrderItemsTableViewCell.swift */,
+				CD44FF10216CC05C008AE0BF /* OrderItemsTableViewCell.xib */,
+			);
+			path = OrderItemsTableViewCell;
+			sourceTree = "<group>";
+		};
+		CDAC34AD21770F6D0052A55C /* NotificationTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CDAC34AE21770F860052A55C /* NotificationTableViewCell.swift */,
+				CDAC34AF21770F860052A55C /* NotificationTableViewCell.xib */,
+			);
+			path = NotificationTableViewCell;
+			sourceTree = "<group>";
+		};
+		CDBE56F02171EE96009A07F0 /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE56F5217209C0009A07F0 /* BarEntry.swift */,
+				CDBE56F32172090E009A07F0 /* BasicBarChart.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+		E6F88E78C4591534F28E6B3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDBE56EA2171C71A009A07F0 /* Foundation.framework */,
+				CDBE56E62171C6EF009A07F0 /* Messages.framework */,
+				CDBE56E72171C6F0009A07F0 /* MessageUI.framework */,
+				81AEC57EACCD7B1781A0F855 /* Pods_MedicoBoxDeliveryBoy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD44FE7A216C85DE008AE0BF /* MedicoBoxDeliveryBoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD44FEA3216C85E4008AE0BF /* Build configuration list for PBXNativeTarget "MedicoBoxDeliveryBoy" */;
+			buildPhases = (
+				B24F017B0BB5D0F5A852E442 /* [CP] Check Pods Manifest.lock */,
+				CD44FE77216C85DE008AE0BF /* Sources */,
+				CD44FE78216C85DE008AE0BF /* Frameworks */,
+				CD44FE79216C85DE008AE0BF /* Resources */,
+				82C8873407984F4E54B3A16B /* [CP] Embed Pods Frameworks */,
+				A1059E2A4942C1BA91A1DA15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicoBoxDeliveryBoy;
+			productName = MedicoBoxDeliveryBoy;
+			productReference = CD44FE7B216C85DE008AE0BF /* MedicoBoxDeliveryBoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD44FE8E216C85E4008AE0BF /* MedicoBoxDeliveryBoyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD44FEA6216C85E4008AE0BF /* Build configuration list for PBXNativeTarget "MedicoBoxDeliveryBoyTests" */;
+			buildPhases = (
+				CD44FE8B216C85E4008AE0BF /* Sources */,
+				CD44FE8C216C85E4008AE0BF /* Frameworks */,
+				CD44FE8D216C85E4008AE0BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD44FE91216C85E4008AE0BF /* PBXTargetDependency */,
+			);
+			name = MedicoBoxDeliveryBoyTests;
+			productName = MedicoBoxDeliveryBoyTests;
+			productReference = CD44FE8F216C85E4008AE0BF /* MedicoBoxDeliveryBoyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD44FE99216C85E4008AE0BF /* MedicoBoxDeliveryBoyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD44FEA9216C85E4008AE0BF /* Build configuration list for PBXNativeTarget "MedicoBoxDeliveryBoyUITests" */;
+			buildPhases = (
+				CD44FE96216C85E4008AE0BF /* Sources */,
+				CD44FE97216C85E4008AE0BF /* Frameworks */,
+				CD44FE98216C85E4008AE0BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD44FE9C216C85E4008AE0BF /* PBXTargetDependency */,
+			);
+			name = MedicoBoxDeliveryBoyUITests;
+			productName = MedicoBoxDeliveryBoyUITests;
+			productReference = CD44FE9A216C85E4008AE0BF /* MedicoBoxDeliveryBoyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD44FE73216C85DE008AE0BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Aiprous;
+				TargetAttributes = {
+					CD44FE7A216C85DE008AE0BF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					CD44FE8E216C85E4008AE0BF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CD44FE7A216C85DE008AE0BF;
+					};
+					CD44FE99216C85E4008AE0BF = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = CD44FE7A216C85DE008AE0BF;
+					};
+				};
+			};
+			buildConfigurationList = CD44FE76216C85DE008AE0BF /* Build configuration list for PBXProject "MedicoBoxDeliveryBoy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD44FE72216C85DE008AE0BF;
+			productRefGroup = CD44FE7C216C85DE008AE0BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD44FE7A216C85DE008AE0BF /* MedicoBoxDeliveryBoy */,
+				CD44FE8E216C85E4008AE0BF /* MedicoBoxDeliveryBoyTests */,
+				CD44FE99216C85E4008AE0BF /* MedicoBoxDeliveryBoyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD44FE79216C85DE008AE0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDBE53692175BFAB0068BD12 /* OpenSans-Bold.ttf in Resources */,
+				CDBE536A2175BFAB0068BD12 /* OpenSans-BoldItalic.ttf in Resources */,
+				CDBE536B2175BFAB0068BD12 /* OpenSans-ExtraBold.ttf in Resources */,
+				CDBE536C2175BFAB0068BD12 /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				CDBE536D2175BFAB0068BD12 /* OpenSans-Italic.ttf in Resources */,
+				CDBE536E2175BFAB0068BD12 /* OpenSans-Light.ttf in Resources */,
+				CDBE536F2175BFAB0068BD12 /* OpenSans-LightItalic.ttf in Resources */,
+				CDBE53702175BFAB0068BD12 /* OpenSans-Regular.ttf in Resources */,
+				CDBE53712175BFAB0068BD12 /* OpenSans-Semibold.ttf in Resources */,
+				CDBE53722175BFAB0068BD12 /* OpenSans-SemiboldItalic.ttf in Resources */,
+				CD44FE89216C85E4008AE0BF /* LaunchScreen.storyboard in Resources */,
+				CD44FEE0216C8881008AE0BF /* fa-solid-900.ttf in Resources */,
+				CD44FF02216C8F91008AE0BF /* OrdersTableViewCell.xib in Resources */,
+				CD44FE86216C85E4008AE0BF /* Assets.xcassets in Resources */,
+				CDAC34B121770F870052A55C /* NotificationTableViewCell.xib in Resources */,
+				CD44FEE1216C8881008AE0BF /* fa-regular-400.ttf in Resources */,
+				CD44FEFD216C8D15008AE0BF /* TodaysOrdersTableViewCell.xib in Resources */,
+				CD44FF0D216C974D008AE0BF /* AddressTableViewCell.xib in Resources */,
+				CD44FE84216C85DE008AE0BF /* Main.storyboard in Resources */,
+				CD44FEE2216C8881008AE0BF /* fa-brands-400.ttf in Resources */,
+				CD44FF12216CC05D008AE0BF /* OrderItemsTableViewCell.xib in Resources */,
+				CD44FECE216C8838008AE0BF /* ImageHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD44FE8D216C85E4008AE0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD44FE98216C85E4008AE0BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82C8873407984F4E54B3A16B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MedicoBoxDeliveryBoy/Pods-MedicoBoxDeliveryBoy-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicoBoxDeliveryBoy/Pods-MedicoBoxDeliveryBoy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1059E2A4942C1BA91A1DA15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MedicoBoxDeliveryBoy/Pods-MedicoBoxDeliveryBoy-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicoBoxDeliveryBoy/Pods-MedicoBoxDeliveryBoy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24F017B0BB5D0F5A852E442 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedicoBoxDeliveryBoy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD44FE77216C85DE008AE0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD44FECF216C8838008AE0BF /* ImageHeaderView.swift in Sources */,
+				CD44FEEF216C88BD008AE0BF /* DesignableImage.swift in Sources */,
+				CD44FF06216C95F9008AE0BF /* MyProfileViewController.swift in Sources */,
+				CD44FF01216C8F91008AE0BF /* OrdersTableViewCell.swift in Sources */,
+				CD44FEF0216C88BD008AE0BF /* DesignableShadowView.swift in Sources */,
+				CD44FEBB216C87E3008AE0BF /* UIView.swift in Sources */,
+				CDAC34B021770F860052A55C /* NotificationTableViewCell.swift in Sources */,
+				CD44FECA216C8825008AE0BF /* SubCell.swift in Sources */,
+				CD44FEEE216C88BD008AE0BF /* DesignableButton.swift in Sources */,
+				CD44FEBD216C87E3008AE0BF /* UIImage.swift in Sources */,
+				CD44FF11216CC05D008AE0BF /* OrderItemsTableViewCell.swift in Sources */,
+				CD44FEB9216C87E3008AE0BF /* String.swift in Sources */,
+				CD44FECB216C8825008AE0BF /* HeaderCell.swift in Sources */,
+				CDBE56F6217209C0009A07F0 /* BarEntry.swift in Sources */,
+				CD44FF0C216C974D008AE0BF /* AddressTableViewCell.swift in Sources */,
+				CD44FEFC216C8D15008AE0BF /* TodaysOrdersTableViewCell.swift in Sources */,
+				CD44FEBE216C87E3008AE0BF /* UIViewController.swift in Sources */,
+				CD44FEB7216C87E3008AE0BF /* UIApplication.swift in Sources */,
+				CDAC34B62177125C0052A55C /* ExSlideMenuController.swift in Sources */,
+				CD44FEB8216C87E3008AE0BF /* UIImageView.swift in Sources */,
+				CD44FEBC216C87E3008AE0BF /* UIColor.swift in Sources */,
+				CDBE56F42172090F009A07F0 /* BasicBarChart.swift in Sources */,
+				CDAC34AC21770ECB0052A55C /* NotificationViewController.swift in Sources */,
+				CDAC34B52177125C0052A55C /* SlideMenuController.swift in Sources */,
+				CD44FEF1216C88BD008AE0BF /* DesignableView.swift in Sources */,
+				CD44FE81216C85DE008AE0BF /* EditProfileViewController.swift in Sources */,
+				CD44FF08216C9607008AE0BF /* HomeViewController.swift in Sources */,
+				CD44FEE7216C88A0008AE0BF /* Extension.swift in Sources */,
+				CDCDEA5A216F27090094324D /* SignInViewController.swift in Sources */,
+				CD44FF14216CC0C7008AE0BF /* CompletedOrdersViewController.swift in Sources */,
+				CD44FE7F216C85DE008AE0BF /* AppDelegate.swift in Sources */,
+				CDF9FFA5216DADBE001C9D75 /* PendingOrdersViewController.swift in Sources */,
+				CD44FF04216C95EA008AE0BF /* OrdersViewController.swift in Sources */,
+				CD44FEB6216C87E3008AE0BF /* CosmosDistrib.swift in Sources */,
+				CD44FEBA216C87E3008AE0BF /* UITableViewExtension.swift in Sources */,
+				CD44FEE6216C88A0008AE0BF /* Constants.swift in Sources */,
+				CD44FEF2216C88BD008AE0BF /* DesignableShadowButton.swift in Sources */,
+				CDAC34B72177125C0052A55C /* LeftViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD44FE8B216C85E4008AE0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD44FE94216C85E4008AE0BF /* MedicoBoxDeliveryBoyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD44FE96216C85E4008AE0BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD44FE9F216C85E4008AE0BF /* MedicoBoxDeliveryBoyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD44FE91216C85E4008AE0BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD44FE7A216C85DE008AE0BF /* MedicoBoxDeliveryBoy */;
+			targetProxy = CD44FE90216C85E4008AE0BF /* PBXContainerItemProxy */;
+		};
+		CD44FE9C216C85E4008AE0BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD44FE7A216C85DE008AE0BF /* MedicoBoxDeliveryBoy */;
+			targetProxy = CD44FE9B216C85E4008AE0BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD44FE82216C85DE008AE0BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD44FE83216C85DE008AE0BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD44FE87216C85E4008AE0BF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD44FE88216C85E4008AE0BF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD44FEA1216C85E4008AE0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD44FEA2216C85E4008AE0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD44FEA4216C85E4008AE0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21EC5E00E3E1077B557CDBA4 /* Pods-MedicoBoxDeliveryBoy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJCWH73PYF;
+				INFOPLIST_FILE = MedicoBoxDeliveryBoy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiprous.MedicoBoxDeliveryBoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD44FEA5216C85E4008AE0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7215B3C7128F035E794FAE88 /* Pods-MedicoBoxDeliveryBoy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NJCWH73PYF;
+				INFOPLIST_FILE = MedicoBoxDeliveryBoy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiprous.MedicoBoxDeliveryBoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD44FEA7216C85E4008AE0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedicoBoxDeliveryBoyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiprous.MedicoBoxDeliveryBoyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicoBoxDeliveryBoy.app/MedicoBoxDeliveryBoy";
+			};
+			name = Debug;
+		};
+		CD44FEA8216C85E4008AE0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedicoBoxDeliveryBoyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiprous.MedicoBoxDeliveryBoyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MedicoBoxDeliveryBoy.app/MedicoBoxDeliveryBoy";
+			};
+			name = Release;
+		};
+		CD44FEAA216C85E4008AE0BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedicoBoxDeliveryBoyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiprous.MedicoBoxDeliveryBoyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedicoBoxDeliveryBoy;
+			};
+			name = Debug;
+		};
+		CD44FEAB216C85E4008AE0BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MedicoBoxDeliveryBoyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aiprous.MedicoBoxDeliveryBoyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MedicoBoxDeliveryBoy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD44FE76216C85DE008AE0BF /* Build configuration list for PBXProject "MedicoBoxDeliveryBoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD44FEA1216C85E4008AE0BF /* Debug */,
+				CD44FEA2216C85E4008AE0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD44FEA3216C85E4008AE0BF /* Build configuration list for PBXNativeTarget "MedicoBoxDeliveryBoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD44FEA4216C85E4008AE0BF /* Debug */,
+				CD44FEA5216C85E4008AE0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD44FEA6216C85E4008AE0BF /* Build configuration list for PBXNativeTarget "MedicoBoxDeliveryBoyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD44FEA7216C85E4008AE0BF /* Debug */,
+				CD44FEA8216C85E4008AE0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD44FEA9216C85E4008AE0BF /* Build configuration list for PBXNativeTarget "MedicoBoxDeliveryBoyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD44FEAA216C85E4008AE0BF /* Debug */,
+				CD44FEAB216C85E4008AE0BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD44FE73216C85DE008AE0BF /* Project object */;
+}
